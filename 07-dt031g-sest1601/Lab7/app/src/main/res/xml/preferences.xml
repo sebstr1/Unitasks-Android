@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="setting_title_title_category"
+        android:title="History options">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:id="@+id/setting_history_id"
+            android:key="@string/history_setting_key"
+            android:title="Save phone number history"
+            android:summary="Enable/Disable history" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="audio_category"
+        android:title="Audio settings">
+    </PreferenceCategory>
+</PreferenceScreen>

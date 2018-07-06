@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="@string/pref_key_Category_weatherSource"
+        android:title="@string/pref_title_weatherSource">
+        <EditTextPreference
+            android:defaultValue="@string/pref_weatherSourceDEFUALT"
+            android:id="@+id/pref_id_weathersource"
+            android:key="@string/pref_key_weatherSource"
+            android:title="@string/pref_title1"
+            android:summary=""
+            />
+
+
+        <EditTextPreference
+            android:defaultValue="@string/pref_key_downloadSourceDEFUALT"
+            android:id="@+id/pref_id_downloadsource"
+            android:key="@string/pref_key_downloadSource"
+            android:title="@string/pref_title_downloadSource"
+            android:summary=""
+            />
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="@string/pref_key_Category_Reset"
+        android:title="@string/pref_Category_title_Reset">
+        <Preference
+            android:key="@string/pref_resetOnClick"
+            android:title="@string/pref_title_Reset"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

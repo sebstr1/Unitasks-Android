@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="activity_history_title">Call History</string>
+    <string name="history_setting_key">history_setting</string>
+    <string name="saved_history_pref">this_is_saved_history_pref2</string>
+    <string name="download">Download</string>
+    <string name="noStoredCalls">No history available</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
