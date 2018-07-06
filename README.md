@@ -8,12 +8,12 @@ When you enter a number and press call, it will open android system dialer and i
 Upon opening the MapActivity, all the locations you have called from will be visible on the map and if you click a marker, it will show info like date/time and number called.
 
 App uses following permissions:
-
+```
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.CALL_PHONE" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
+```
 Structure of this project is not optimal as it has been built on in several steps without knowing what comes in the next assignment..
 
 ---
@@ -27,7 +27,8 @@ Course Final Project. This is an app Where you can add Bathingsites with info li
 In the mapview you will see all bathingsites on the map within a distance by radius (changeable from settings menu) from your active position. Your position will update on the map as you move by a locationlistener.
   
 App uses following permissions:
-
+```
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 <uses-permission android:name="android.permission.INTERNET" />
+```
