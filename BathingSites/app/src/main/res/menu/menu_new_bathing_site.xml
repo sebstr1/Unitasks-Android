@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sest1601.bathingsites.new_site.NewBathingSiteActivity">
+
+    <item
+        android:id="@+id/newBath_menu_CLEAR"
+        android:orderInCategory="100"
+        android:title="@string/newBath_menu_clear"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/newBath_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/newBath_menu_save"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/newBath_menu_weather"
+        android:orderInCategory="100"
+        android:title="@string/newBath_menu_weather"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+</menu>
